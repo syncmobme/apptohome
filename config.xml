@@ -135,7 +135,7 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
 <platform name="ios" >
     <resource-file src="GoogleService-Info.plist" target="GoogleService-Info.plist" />
     <preference name="ios-configuration" value="production"/>
-    <preference name="deployment-target" value="9.0"/>
+    <preference name="deployment-target" value="8.0"/>
     <preference name="Orientation" value="all"/>
 
     <preference name="WKWebViewOnly" value="true" />
