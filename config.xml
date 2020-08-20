@@ -33,7 +33,7 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
     <variable name="FACEBOOK_ANDROID_SDK_VERSION" value="4.+" />
 </plugin>
 -->
-<engine name="ios" spec="~5.1.1" />
+<engine name="ios" spec="latest" />
 <engine name="android" spec="~7.1.4" />
 
 <plugin name="cordova-plugin-file" spec="4.2.0"/>
@@ -143,6 +143,11 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="AllowBackForwardNavigationGestures" value="false" />
+    <preference name="Allow3DTouchLinkPreview" value="false" />
+    <preference name="WKWebViewOnly" value="true" />
+    <preference name="UseSwiftLanguageVersion" value="4" />
+    <preference name="SwiftVersion" value="4.2" />
 
 </platform>
 
