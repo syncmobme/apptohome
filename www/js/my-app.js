@@ -14647,6 +14647,11 @@ function limpar()
                                 case 'banner':
                                 bannercont(data.additionalData.id,true);
                                 break;
+
+                                case 'assembleia':
+                                mainView.router.load({pageName: 'assembleiacont'});
+                                assembleiacont(data.additionalData.id,true);
+                                break;
                             }
                         }
                     });
@@ -14707,6 +14712,12 @@ function limpar()
                                 case 'banner':
                                 bannercont(data.additionalData.id,true);
                                 break;
+
+                                case 'assembleia':
+                                mainView.router.load({pageName: 'assembleiacont'});
+                                assembleiacont(data.additionalData.id,true);
+                                break;
+
                             }
                         console.log('CAPTURADO PUSH COM APP EM COLDSTART!');
 
@@ -14764,6 +14775,11 @@ function limpar()
 
                                 case 'banner':
                                 bannercont(data.additionalData.id,true);
+                                break;
+
+                                case 'assembleia':
+                                mainView.router.load({pageName: 'assembleiacont'});
+                                assembleiacont(data.additionalData.id,true);
                                 break;
 
                             }
