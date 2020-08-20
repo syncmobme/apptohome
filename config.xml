@@ -43,10 +43,10 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
 
 <plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
 
-<!-- 1.11.1 | alterar notificationTemplate framework7.js -->
+<!-- 1.11.1 | alterar notificationTemplate framework7.js 
 <plugin name="phonegap-plugin-push" spec="2.3.0">
     <variable name="FCM_VERSION" value="11.0.1" />
-</plugin>
+</plugin>-->
 
 <plugin name="cordova-plugin-cocoapod-support" spec="1.8.0"/>
 
