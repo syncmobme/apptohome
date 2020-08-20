@@ -1,0 +1,16 @@
+{
+  "name": "Apptohome",
+  "version": "1.3.5",
+  "description": "Moradores e condomínios conectados",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syncmobme/apptohome.git"
+  },
+  "author": "Agência Bynnes",
+  "license": "ISC",
+  "homepage": "https://apptohome.com.br/"
+}

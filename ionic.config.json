@@ -1,0 +1,7 @@
+{
+  "name": "Apptohome",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}
