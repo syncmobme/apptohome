@@ -10,10 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/syncmobme/apptohome.git"
   },
-  "variables": {
-    "SENDER_ID": "214666097431"
-  },
-  "locator": "phonegap-plugin-push",
   "author": "Agência Bynnes",
   "license": "ISC",
   "homepage": "https://apptohome.com.br/"
