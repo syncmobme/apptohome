@@ -72,7 +72,7 @@ var $$idcondominioteste = "1";
 var $$idblocoteste = "2";
 var $$iddomicilioteste = "3093";
 var $$senderID = "214666097431";
-var $$testelocal = false;
+var $$testelocal = true;
 
 logado();
 
