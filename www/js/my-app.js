@@ -1295,8 +1295,14 @@ $$('#entrar').on('click', function(){
                                                             '<div class="right no-margin"><a href="#index" class="link icon-only"><i class="icon fa fa-home"></i></a></div>'+
                                                         '</div>'+
                                                     '</div>'+
+                                                    '<form data-search-list=".search-here" data-search-in=".item-title" class="searchbar searchbar-init toolbar tabbar submenulistcond">'+
+                                                      '<div class="searchbar-input">'+
+                                                        '<input type="search" class="inputsearchlistcond" placeholder="Nome do condomínio">'+
+                                                        '<a href="#" class="searchbar-clear"></a>'+
+                                                      '</div>'+
+                                                    '</form>'+
                                                       '<div class="page-content">'+
-                                                        '<div class="list-block">'+
+                                                        '<div class="list-block list-block-search-listcond searchbar-found">'+
                                                           '<ul>';
                                     
                                 $$.each(data.condominio, function (chave,dados)
@@ -1373,8 +1379,14 @@ $$('#entrar').on('click', function(){
                                                             '<div class="right no-margin"><a href="#index" class="link icon-only"><i class="icon fa fa-home"></i></a></div>'+
                                                         '</div>'+
                                                     '</div>'+
+                                                    '<form data-search-list=".search-here" data-search-in=".item-title" class="searchbar searchbar-init toolbar tabbar submenulistcond">'+
+                                                      '<div class="searchbar-input">'+
+                                                        '<input type="search" class="inputsearchlistcond" placeholder="Nome do condomínio">'+
+                                                        '<a href="#" class="searchbar-clear"></a>'+
+                                                      '</div>'+
+                                                    '</form>'+
                                                       '<div class="page-content">'+
-                                                        '<div class="list-block">'+
+                                                        '<div class="list-block list-block-search-listcond searchbar-found">'+
                                                           '<ul>';
                                     
                                 $$.each(data.condominio, function (chave,dados)
