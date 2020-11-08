@@ -16,12 +16,12 @@ id="com.aptohome.android.crosswalk"
 
 <preference name="phonegap-version" value="cli-9.0.3" />
 
-<plugin name="cordova-plugin-device" spec="~2.0.3"/>
-<plugin name="cordova-plugin-network-information" spec="~1.2.1"/>
-<plugin name="cordova-plugin-inappbrowser" spec="~4.0.0"/>
-<plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+<plugin name="cordova-plugin-device" spec="2.0.3"/>
+<plugin name="cordova-plugin-network-information" spec="1.2.1"/>
+<plugin name="cordova-plugin-inappbrowser" spec="4.0.0"/>
+<plugin name="cordova-plugin-whitelist" spec="1.3.3" />
 <!--<plugin name="cordova-plugin-wkwebview-engine" spec="1.2.1" />-->
-<plugin name="cordova-plugin-networkinterface" spec="~2.0.0" />
+<plugin name="cordova-plugin-networkinterface" spec="2.0.0" />
 <!-- 
 Android <plugin name="cordova-plugin-facebook4">
 ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
@@ -34,29 +34,29 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
 </plugin>
 -->
 <engine name="ios" spec="latest" />
-<engine name="android" spec="~8.0.0" />
+<engine name="android" spec="8.0.0" />
 
-<plugin name="cordova-plugin-file" spec="~6.0.2"/>
-<plugin name="cordova-plugin-statusbar" spec="~2.4.3"/>
-<plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
-<plugin name="cordova-plugin-dialogs" spec="~2.0.2"/>
+<plugin name="cordova-plugin-file" spec="6.0.2"/>
+<plugin name="cordova-plugin-statusbar" spec="2.4.3"/>
+<plugin name="ionic-plugin-keyboard" spec="2.2.1"/>
+<plugin name="cordova-plugin-dialogs" spec="2.0.2"/>
 
-<plugin name="cordova-plugin-splashscreen" spec="~6.0.0"/>
+<plugin name="cordova-plugin-splashscreen" spec="6.0.0"/>
 
 <!-- 1.11.1 | alterar notificationTemplate framework7.js -->
-<plugin name="cordova-plugin-push" spec="~1.0.3">
+<plugin name="cordova-plugin-push" spec="1.0.3">
     <variable name="FCM_VERSION" value="11.0.1" />
     <variable name="SENDER_ID" value="214666097431"/>
 </plugin>
 <!--<plugin name="cordova-plugin-firebasex" spec="https://github.com/dpa99c/cordova-plugin-firebase" />-->
-<plugin name="cordova-plugin-cocoapod-support" spec="~1.6.2"/>
+<plugin name="cordova-plugin-cocoapod-support" spec="1.6.2"/>
 
-<plugin name="cordova-plugin-app-version" spec="~0.1.9"/>
-<plugin name="cordova-plugin-file-transfer" spec="~1.7.1"/>
-<plugin name="cordova-plugin-media" spec="~5.0.2"/>
-<plugin name="cordova-plugin-android-permissions" spec="~1.1.0"/>
+<plugin name="cordova-plugin-app-version" spec="0.1.9"/>
+<plugin name="cordova-plugin-file-transfer" spec="1.7.1"/>
+<plugin name="cordova-plugin-media" spec="5.0.2"/>
+<plugin name="cordova-plugin-android-permissions" spec="1.1.0"/>
 
-<plugin name="cordova-plugin-camera" spec="~5.0.0">
+<plugin name="cordova-plugin-camera" spec="5.0.0">
     <variable name="CAMERA_USAGE_DESCRIPTION" value="Usamos a câmera para tirar fotos nas aberturas de ocorrências" />
     <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Usamos a galeria para envio de fotos nas aberturas de ocorrências" />
 </plugin>
@@ -70,7 +70,7 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
     <string>Precisamos de acesso a galeria para salvar as fotos de aberturas de ocorrências</string>
 </edit-config>
 
-<plugin name="cordova-plugin-geolocation" spec="~4.0.1">
+<plugin name="cordova-plugin-geolocation" spec="4.0.1">
     <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="Usamos a sua localização, quando autorizado, para enviar alertas de chegada para portaria" />
 </plugin>
 <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" platform="ios" overwrite="true">
