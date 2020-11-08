@@ -44,7 +44,7 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
 <plugin name="cordova-plugin-splashscreen" spec="6.0.0"/>
 
 <!-- 1.11.1 | alterar notificationTemplate framework7.js -->
-<plugin name="cordova-plugin-push" spec="1.0.3">
+<plugin name="cordova-plugin-push" spec="2.3.0">
     <variable name="FCM_VERSION" value="11.0.1" />
     <variable name="SENDER_ID" value="214666097431"/>
 </plugin>
@@ -52,7 +52,7 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
 <plugin name="cordova-plugin-cocoapod-support" spec="1.6.2"/>
 
 <plugin name="cordova-plugin-app-version" spec="0.1.9"/>
-<plugin name="cordova-plugin-file-transfer" spec="1.7.1"/>
+<!--<plugin name="cordova-plugin-file-transfer" spec="1.7.1"/>-->
 <plugin name="cordova-plugin-media" spec="5.0.2"/>
 <plugin name="cordova-plugin-android-permissions" spec="1.1.0"/>
 
