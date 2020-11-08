@@ -41,14 +41,14 @@ ios <plugin name="https://github.com/amritk/cordova-plugin-facebook4#ad7004a">
 <plugin name="ionic-plugin-keyboard" spec="^2.2.1"/>
 <plugin name="cordova-plugin-dialogs" spec="^1.2.1"/>
 
-<plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
+<plugin name="cordova-plugin-splashscreen" spec="latest"/>
 
 <!-- 1.11.1 | alterar notificationTemplate framework7.js -->
-<!--<plugin name="phonegap-plugin-push" spec="2.3.0">
+<plugin name="cordova-plugin-push" spec="latest">
     <variable name="FCM_VERSION" value="11.0.1" />
     <variable name="SENDER_ID" value="214666097431"/>
-</plugin>-->
-<plugin name="cordova-plugin-firebasex" spec="https://github.com/dpa99c/cordova-plugin-firebase" />
+</plugin>
+<!--<plugin name="cordova-plugin-firebasex" spec="https://github.com/dpa99c/cordova-plugin-firebase" />-->
 <plugin name="cordova-plugin-cocoapod-support" spec="1.8.0"/>
 
 <plugin name="cordova-plugin-app-version" spec="^0.1.9"/>
